@@ -16,7 +16,7 @@ $tertiary-color: #572433;
 
 @function set-text-color($color) {
     @if (lightness($color) > 40%) {
-        @return #c97f94;
+        @return #572433;
     } @else {
         @return #fff;
     }

@@ -17,7 +17,7 @@
   font-size: 5rem;
   padding-bottom: 1rem;
   margin-bottom: 1rem;
-  border-bottom: 2px solid #c97f94;
+  background: rgba(201, 127, 148, 0.3);
 }
 .home__name--last {
   color: #fff;
@@ -40,7 +40,7 @@
   top: 0.5rem;
   width: 28px;
   height: 3px;
-  background: #c97f94;
+  background: #572433;
   transition: all 0.5s ease-in-out;
 }
 .menu-btn__burger::before {
@@ -49,7 +49,7 @@
   top: -8px;
   width: 28px;
   height: 3px;
-  background: #c97f94;
+  background: #572433;
   transition: all 0.5s ease-in-out;
 }
 .menu-btn__burger::after {
@@ -58,7 +58,7 @@
   top: 8px;
   width: 20px;
   height: 3px;
-  background: #c97f94;
+  background: #572433;
   transition: all 0.5s ease-in-out;
 }
 .menu-btn__burger.open {
@@ -91,7 +91,7 @@
   justify-content: center;
   height: 100vh;
   overflow: hidden;
-  background: #572433;
+  background: #c97f94;
   list-style-type: none;
   padding-right: 1rem;
   transform: translateY(-100%);
@@ -350,7 +350,7 @@
 }
 body {
   background: #c97f94;
-  color: #c97f94;
+  color: #572433;
   height: 100vh;
   font-family: Garamond, serif;
   line-height: 1;
@@ -361,7 +361,7 @@ h1, h2, h3 {
 }
 
 a {
-  color: #c97f94;
+  color: #572433;
   text-decoration: none;
 }
 
@@ -400,5 +400,5 @@ footer {
   right: 1rem;
   text-align: right;
   padding: 1rem;
-  color: #c97f94;
+  color: #572433;
 }/*# sourceMappingURL=main.css.map */
