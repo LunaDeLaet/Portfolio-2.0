@@ -142,7 +142,7 @@
   padding-bottom: 2rem;
 }
 .about__bio-image {
-  height: 80vh;
+  height: 90vh;
   width: 100%;
   background: linear-gradient(to right, rgba(201, 127, 148, 0.3), rgba(201, 127, 148, 0.1)), url("../images/flower1.jpg") center top;
   background-size: cover;
@@ -176,9 +176,18 @@
 }
 .about .jobs__job h2, .about .jobs__job h3 {
   margin: 0.5rem 0;
+  font-weight: bold;
 }
 .about .jobs__job h6 {
   margin: 0.3rem 0;
+  font-size: 1rem;
+}
+.about .jobs .subtitle {
+  padding-bottom: 5px;
+  border-bottom: 4px solid #fff;
+  font-weight: bold;
+  text-align: center;
+  font-size: 2rem;
 }
 .about .social-icons {
   display: flex;
@@ -297,7 +306,6 @@
   .menu-btn {
     visibility: hidden;
   }
-
   .nav {
     visibility: visible;
   }
@@ -315,11 +323,9 @@
   .nav .menu-nav__link {
     font-size: 1.5rem;
   }
-
   .about__bio {
     font-size: 1.5rem;
   }
-
   .projects__bio-image {
     height: 40vh;
   }
@@ -329,7 +335,6 @@
   .projects .text-secondary {
     font-size: 3rem;
   }
-
   .contact__list {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -338,7 +343,6 @@
   .projects__items {
     grid-template-columns: repeat(3, 1fr);
   }
-
   .contact__list {
     grid-template-columns: repeat(3, 1fr);
   }
