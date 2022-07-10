@@ -298,11 +298,14 @@
   font-size: 3rem;
   margin-bottom: 2rem;
 }
-.contact h2__list {
+.contact__list {
   display: grid;
   grid-template-columns: 1fr;
   gap: 2rem;
   font-size: 1.5rem;
+}
+.contact__list .text-secondary {
+  color: #c97f94;
 }
 .contact .social-icons {
   position: initial;
@@ -342,15 +345,9 @@
   .projects .text-secondary {
     font-size: 3rem;
   }
-  .contact__list {
-    grid-template-columns: repeat(2, 1fr);
-  }
 }
 @media screen and (min-width: 1024px) {
   .projects__items {
-    grid-template-columns: repeat(3, 1fr);
-  }
-  .contact__list {
     grid-template-columns: repeat(3, 1fr);
   }
   .about .jobs {
