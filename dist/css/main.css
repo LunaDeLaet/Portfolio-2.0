@@ -185,12 +185,16 @@
   margin: 0.3rem 0;
   font-size: 1rem;
 }
-.about .jobs .subtitle {
+.about .subtitle {
   padding-bottom: 5px;
   border-bottom: 4px solid #fff;
   font-weight: bold;
   text-align: center;
   font-size: 2rem;
+  color: #fff;
+  padding: 2rem;
+  width: 80%;
+  margin: 0 auto;
 }
 .about .social-icons {
   display: flex;
@@ -348,6 +352,9 @@
   }
   .contact__list {
     grid-template-columns: repeat(3, 1fr);
+  }
+  .about .jobs {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 @media (prefers-reduced-motion: no-preference) {

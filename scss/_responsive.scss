@@ -59,9 +59,15 @@
     .contact__list {
         grid-template-columns: repeat(3, 1fr);
     }
+
+    .about .jobs {
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
 }
 
 
 @include media-xl {
-
+    
 }
