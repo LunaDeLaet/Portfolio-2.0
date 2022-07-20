@@ -1,4 +1,4 @@
-# Portfolio-2.0
+# Portfolio
 
 I created this portfolio project to showcase where I stand within my trajectory towards becoming a web developer, for others but also for myself. 
 
